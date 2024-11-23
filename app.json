@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Gemini Chat-Bot",
+    "slug": "Beginner Level ChatBot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/robot.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/icons/robot.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icons/robot.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/icons/robot.png"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
